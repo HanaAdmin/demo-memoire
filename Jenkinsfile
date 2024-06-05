@@ -12,6 +12,7 @@ pipeline {
 
 
                          sh 'javac DemoMemoire.java && java DemoMemoire'
+                         sh 'cat README.md'
 
                       }
 
